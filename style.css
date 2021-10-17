@@ -1,0 +1,103 @@
+html {
+  font-family: "Lato", sans-serif;
+}
+body {
+  margin: 30px;
+}
+.pricingPlan {
+  font-family: "Festive", cursive;
+  font-size: 30px;
+  color: red;
+}
+.ourPricing {
+  font-size: 40px;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  width: 33.33%;
+}
+.circle1 {
+  border-radius: 50%;
+  background: #3eb489;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.circle1:before {
+  content: "$30";
+  font-size: 40px;
+  text-align: center;
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #3eb489;
+  width: 80%;
+  height: 80%;
+  align-self: center;
+}
+.circle2 {
+  border-radius: 50%;
+  background: red;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.circle2:before {
+  content: "$70";
+  font-size: 40px;
+  text-align: center;
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: red;
+  width: 80%;
+  height: 80%;
+  align-self: center;
+}
+.silverPack {
+  list-style: none;
+  text-indent: -40px;
+}
+.silverPack::before {
+  content: "\2714";
+  padding-right: 20px;
+  color: #3eb489;
+}
+.goldenPack {
+  list-style: none;
+  text-indent: -40px;
+}
+.goldenPack::before {
+  content: "\2714";
+  padding-right: 20px;
+  color: red;
+}
+.btnGreen {
+  font-size: 15px;
+  background-color: #3eb489;
+  /* border: none; */
+  height: 50px;
+  width: 150px;
+  border-radius: 40px / 40px 0px;
+}
+.btnRed {
+  font-size: 15px;
+  color: white;
+  background-color: red;
+  /* border: none; */
+  height: 50px;
+  width: 150px;
+  border-radius: 40px / 40px 0px;
+}
