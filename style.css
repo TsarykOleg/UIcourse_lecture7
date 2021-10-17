@@ -30,7 +30,7 @@ article {
   display: flex;
   justify-content: center;
 }
-.circle1:before {
+.circle1::before {
   content: "$30";
   font-size: 40px;
   text-align: center;
@@ -52,7 +52,7 @@ article {
   display: flex;
   justify-content: center;
 }
-.circle2:before {
+.circle2::before {
   content: "$70";
   font-size: 40px;
   text-align: center;
